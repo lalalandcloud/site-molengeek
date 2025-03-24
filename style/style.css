@@ -23,7 +23,6 @@
     border-radius: 10%;
 }
 section:nth-of-type(2){
-    border-style: solid rgb(238, 238, 238) 1px;
     display: flex;
     padding: 5px;
     margin: 5px;
@@ -37,9 +36,9 @@ section:nth-of-type(2){
 #listenav{
     display: flex;
     padding: 5px;
-    margin: 5px;
     list-style-type: none;
-
+    justify-content: center;
+    align-items: center;
 }
 
 #footer{
@@ -88,4 +87,18 @@ h1{
 #div2{
     margin-bottom: 30px;
 }
-#logo2{}
+#logo2{
+    height: 30px;
+    display: flex;
+    justify-self: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#cr{
+    color: rgb(141, 145, 145);
+    text-align: center;
+    margin: 20px;
+}
+.navbar{
+    border:1px solid rgb(238, 238, 238);
+}
