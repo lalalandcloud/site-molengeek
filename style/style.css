@@ -38,13 +38,13 @@ section:nth-of-type(2){
     display: flex;
     padding: 5px;
     margin: 5px;
+    list-style-type: none;
+
 }
 
 #footer{
     background-color: rgb(54, 54, 54);
     color: white;
-    justify-content: center;
-    align-items: center;
 }
 #links{
     display: flex;
@@ -55,11 +55,37 @@ section:nth-of-type(2){
     text-align: justify;
     text-justify: inter-word;
     margin: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+li::marker{
+    color: rgb(155, 0, 157);
 }
 h1{
     text-align: center;
+}
+#titre1{
+    margin: 100px;
+}
+#logo2, #links{
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    margin: 10px;
+    padding: 5px;
+}
+.list{
+    margin: 7px;
+    padding: 3px;
+}
+#p1{
+    padding: 7px;
+}
+#titre2{
     margin: 20px;
 }
-#liste2{
-
+#div2{
+    margin-bottom: 30px;
 }
+#logo2{}
